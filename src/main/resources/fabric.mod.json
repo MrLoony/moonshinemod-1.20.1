@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "moonshinemod",
+	"version": "${version}",
+	"name": "MoonshineMod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"MrLoony"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/moonshinemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mrloony.moonshinemod.MoonshineMod"
+		],
+        "client": [
+          "net.mrloony.moonshinemod.MoonshineModClient"
+        ],
+		"fabric-datagen": [
+			"net.mrloony.moonshinemod.MoonshineModDataGenerator"
+		]
+	},
+	"mixins": [
+		"moonshinemod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
