@@ -2,6 +2,9 @@ package net.mrloony.moonshinemod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mrloony.moonshinemod.block.ModBlocks;
+import net.mrloony.moonshinemod.item.ModItemGroup;
+import net.mrloony.moonshinemod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +14,9 @@ public class MoonshineMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+        ModItemGroup.registerItemsGroups();
+
+        ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 	}
 }

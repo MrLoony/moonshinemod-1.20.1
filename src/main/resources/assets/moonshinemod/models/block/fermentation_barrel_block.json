@@ -1,0 +1,71 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "sides": "moonshinemod:block/fermentation_barrel_block_sides",
+    "ends": "moonshinemod:block/fermentation_barrel_block_ends",
+    "feet": "moonshinemod:block/fermentation_barrel_block_feet"
+  },
+
+  "elements": [
+    {
+      "from": [0,0,0],
+      "to": [16,16,16],
+      "faces": {
+        "north": { "texture": "#sides"},
+        "south": { "texture": "#sides"},
+        "east":  { "texture": "#sides"},
+        "west":  { "texture": "#sides"},
+        "up":    { "texture": "#ends"},
+        "down":  { "texture": "#ends"}
+      }
+    },
+    {
+      "from": [2, 0, 2],
+      "to": [5, 3, 5],
+      "faces": {
+        "north": { "texture": "#feet" },
+        "south": { "texture": "#feet" },
+        "east":  { "texture": "#feet" },
+        "west":  { "texture": "#feet" },
+        "up":    { "texture": "#feet" },
+        "down":  { "texture": "#feet" }
+      }
+    },
+    {
+      "from": [11, 0, 2],
+      "to": [14, 3, 5],
+      "faces": {
+        "north": { "texture": "#feet" },
+        "south": { "texture": "#feet" },
+        "east":  { "texture": "#feet" },
+        "west":  { "texture": "#feet" },
+        "up":    { "texture": "#feet" },
+        "down":  { "texture": "#feet" }
+      }
+    },
+    {
+      "from": [2, 0, 11],
+      "to": [5, 3, 14],
+      "faces": {
+        "north": { "texture": "#feet" },
+        "south": { "texture": "#feet" },
+        "east":  { "texture": "#feet" },
+        "west":  { "texture": "#feet" },
+        "up":    { "texture": "#feet" },
+        "down":  { "texture": "#feet" }
+      }
+    },
+    {
+      "from": [11, 0, 11],
+      "to": [14, 3, 14],
+      "faces": {
+        "north": { "texture": "#feet" },
+        "south": { "texture": "#feet" },
+        "east":  { "texture": "#feet" },
+        "west":  { "texture": "#feet" },
+        "up":    { "texture": "#feet" },
+        "down":  { "texture": "#feet" }
+      }
+    }
+  ]
+}
