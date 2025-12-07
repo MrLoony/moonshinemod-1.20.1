@@ -3,6 +3,7 @@ package net.mrloony.moonshinemod;
 import net.fabricmc.api.ModInitializer;
 
 import net.mrloony.moonshinemod.block.ModBlocks;
+import net.mrloony.moonshinemod.block.ModBlockEntities;
 import net.mrloony.moonshinemod.item.ModItemGroup;
 import net.mrloony.moonshinemod.item.ModItems;
 import org.slf4j.Logger;
@@ -18,5 +19,6 @@ public class MoonshineMod implements ModInitializer {
 
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
-	}
+        ModBlockEntities.registerBlockEntities();
+        }
 }

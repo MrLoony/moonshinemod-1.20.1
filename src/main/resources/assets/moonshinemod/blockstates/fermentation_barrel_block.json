@@ -1,8 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "moonshinemod:block/fermentation_barrel_block"
-    }
-  },
-  "render_type": "solid"
+    "": { "model": "moonshinemod:block/fermentation_barrel_block" }
+  }
 }

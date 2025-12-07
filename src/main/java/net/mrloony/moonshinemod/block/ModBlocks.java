@@ -13,8 +13,9 @@ import net.mrloony.moonshinemod.MoonshineMod;
 
 public class ModBlocks {
 
-    public static final Block FERMENTATION_BARREL_BLOCK = registerBlock("fermentation_barrel_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block FERMENTATION_BARREL_BLOCK = registerBlock(
+            "fermentation_barrel_block",
+            new FermentationBarrelBlock(FabricBlockSettings.copyOf(Blocks.BARREL)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
