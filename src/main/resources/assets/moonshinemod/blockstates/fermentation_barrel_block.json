@@ -3,5 +3,6 @@
     "": {
       "model": "moonshinemod:block/fermentation_barrel_block"
     }
-  }
+  },
+  "render_type": "solid"
 }

@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 import net.mrloony.moonshinemod.MoonshineMod;
 
 public class ModBlocks {
+
     public static final Block FERMENTATION_BARREL_BLOCK = registerBlock("fermentation_barrel_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
